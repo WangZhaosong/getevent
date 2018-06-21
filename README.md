@@ -26,3 +26,5 @@ $ ./generate-input.h-labels.py /usr/include/linux/input-event-codes.h > input.h-
 ```
 $ gcc -o getevent getevent.c
 ```
+
+5. sendevent可以直接讲`sendevent_main`修改为`main`，不依赖其他文件，可以直接编译通过，此处不多做介绍。
